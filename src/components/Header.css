@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    background: url('../images/background.webp'),rgba(0,0,0,0.4);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    /* list-style: none; */
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    /* margin: auto; */
+}
+
+.navbar ul li a{
+    margin: 18px;
+    padding: 12px;
+    font-weight: bold;
+    color:white;
+    border-radius: 5px;
+    transition: all 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.logo{
+    width: 87px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    margin: 0px 73px 0px 28px;
+    transition: all 1s;
+    color: rgb(255 0 0);
+
+}
+.logo:hover{
+    transform: rotate(1turn);
+    color:rgb(100, 236, 123);
+}
+
+
+
+
+nav ul li a:hover{
+    background-color: rgb(252, 96, 96);
+    
+}
+.gazz{
+    margin-top: -15px;
+
+}
+.daiso{
+    font-size: 3rem;
+
+}
+.user{
+    position: absolute;
+    right: 5px;
+}
+.user button{
+    background:none;
+    border: none;
+    color:white;
+    font-weight: bold;
+    margin: 8px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.5s;
+    font-size: 1.1rem;
+    cursor:pointer;
+}
+.user button:hover{
+    background-color: rgb(252, 96, 96);
+    
+}
+
+
+
+
+
+/* quotes */
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.quotes{
+    color:white;
+    font-size: 3rem;
+    transition: all 1s;
+}
+.quotes:hover{
+    transform: translateX(40px);
+    /* transform: translateX(-20px); */
+}
+.search_bar{
+    margin-top: 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search_bar input{
+    width: 34rem;
+    padding: 14px;
+    height: inherit;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    outline:none;
+    font-size: 1.25rem;
+}
+.search_bar button{
+    border: none;
+    border-radius: 5px;
+    margin: 3px;
+    padding: 18px;
+    color: white;
+    font-weight: bold;
+    background-color: blue;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.search_bar button:hover{
+    background-color: rgb(102, 102, 236);
+}
